@@ -23,4 +23,4 @@ jobs:
       run: docker build -t 21csa56/sysfoo-21csa56
 
     - name: Push Docker Image
-      run: docker push 21csa56/sysfoo-21csa56
+      run: docker push 21csa56/sysfoo-21csa56:latest
