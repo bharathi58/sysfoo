@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.BHARATHI }}
 
     - name: Build Docker Image
-      run: docker build -t 21csa56/sysfoo-21csa56
+      run: docker build -t DOCKERUS/DOKCERIM:latest.
 
     - name: Push Docker Image
-      run: docker push 21csa56/sysfoo-21csa56:latest
+      run: docker push DOCKERUS/DOKCERIM:latest
